@@ -8,12 +8,13 @@
             "name": "(Windows) Launch",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "program": "${workspaceFolder}/TestCpp.cpp",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false
+            "externalConsole": false,
+            //"miDebuggerPath": "C:\\Users\\Axia\\Documents\\Lewis'sFIles\\CPPTesting\\TestCpp.exe"
         }
     ]
 }

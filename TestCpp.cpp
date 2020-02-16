@@ -3,6 +3,11 @@
 
 main()
 {
+    int a = 10;
     std::cout << "hello world" << std::endl;
-    std::cout << "help Me" << std::endl;
+    for (int i = 0; i < 10; i++)
+    {
+        a++;
+    }
+    std::cout << a << std::endl;
 }
